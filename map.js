@@ -1,10 +1,3 @@
-// //
-// const lighthouses = ["Gibraltar Point", "Peggy's Point", "Cove Island", "Discovery Island", "Cape Scott", "Point Clark", "Kincardine"];
-
-// let lengthmap=lighthouses.map(x=>x.length);
-
-// console.log(lengthmap);
-
 const eqArrays = function (arr1, arr2){
 
   if ( arr1.length !== arr2.length ){
