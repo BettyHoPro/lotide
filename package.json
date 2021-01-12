@@ -4,7 +4,7 @@
   "description": "\"this is the Lotide to set up json\"",
   "main": "assertArraysEqual.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Betty",
   "license": "ISC",
@@ -21,5 +21,10 @@
   "homepage": "https://github.com/BettyHoPro/testMacGit#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
   }
 }
+
