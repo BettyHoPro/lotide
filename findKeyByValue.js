@@ -32,3 +32,4 @@ assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
 //   b: 'b'
 // }
 // Object.keys(obj) // ["c", "a", "b"]
+module.exports = findKeyByValue;

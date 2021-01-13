@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 ////// this /////
-const indKey = ( object, callback ) => {
+const findKey = ( object, callback ) => {
   for ( let q in object )
     if ( callback (object[q])){
       return q;
@@ -24,23 +24,4 @@ findKey({
 }, x => x.stars === 2) // => "noma"
 assertEqual( 2, 3);
 
-
-////// reference //////
-// findKeyByValue = ( object, value ) => {
-//   for ( let key of Object.keys(object) ){
-//     //console.log(key);
-//     //console.log(object[key]);
-//     if ( object[key] === value) {
-//       return key;
-//     }
-//   }  
-// };
-
-// const bestTVShowsByGenre = { 
-//   sci_fi: "The Expanse",
-//   comedy: "Brooklyn Nine-Nine",
-//   drama:  "The Wire"
-// };
-
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "The Wire"), "drama");
-// assertEqual(findKeyByValue(bestTVShowsByGenre, "That '70s Show"), undefined);
+module.exports = findKey;

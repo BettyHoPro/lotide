@@ -36,3 +36,5 @@ assertArraysEqual(map(words, word => word[0]), [ 'u', 'c', 't', 'r', 't' ]);
 assertArraysEqual(map(words, word => word[02]), [89]);
 assertArraysEqual(map(words, word => word[02]), [02]);
 assertArraysEqual(map(words, word => word[0]), ["Lighthouse Labs"]);
+
+module.exports = map;

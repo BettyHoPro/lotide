@@ -32,6 +32,7 @@ const without = (source, itemsToRemove) => {
   return answer;
 };
 
+module.exports = without;
 ///////////// from Compass
 
 //--- without function: (  source array ,  itemsToRemove array ) ===> source arr[q] not in itemsToRemove arr

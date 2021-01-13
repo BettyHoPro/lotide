@@ -9,7 +9,7 @@ const assertEqual = function(actual, expected) {
 //////////// this time 
 // string ---> replace：Format Ob items
 
-countLetters = (string) => {
+const countLetters = (string) => {
   string = string.replace(/\s+/g, '');
   let obBox = {}
   for (let item of string) {
@@ -21,6 +21,6 @@ countLetters = (string) => {
 console.log(countLetters('LHL'));
 console.log(countLetters("lighthouse in the house"));
 
-
+module.exports = countLetters;
 
 

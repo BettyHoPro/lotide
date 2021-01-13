@@ -11,7 +11,7 @@ const assertEqual = function(actual, expected) {
 // itemsToCount: an object specifying what to count
 //== (arr, ob)
 
-countOnly = (allItems, itemsToCount) => {
+const countOnly = (allItems, itemsToCount) => {
   const results = {};
   for (const item of allItems) {
     console.log(item);
@@ -49,4 +49,4 @@ assertEqual(result1["Karima"], undefined);
 assertEqual(result1["Fang"], 2);
 assertEqual(result1["Agouhanna"], undefined);
 
-
+module.exports = countOnly;
