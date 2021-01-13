@@ -1,6 +1,6 @@
 //const eqArrays = require("./eqArrays");
 const assertArraysEqual = require("./assertArraysEqual");
-middle = ( array ) => { 
+const middle = ( array ) => { 
   let arrMiddle = [ ];
   let midNum = array.length/2;
   let midNumOdd=Math.floor(midNum);
