@@ -1,32 +1,32 @@
 {
-  "name": "betty_ho_dev/lotide", 
+  "name": "@betty_ho_dev/lotide",
   "version": "1.0.0",
-  "description": "\"this is the Lotide project created by Betty Ho which used to practice and learn web development\"",
-  "main": "assertArraysEqual.js",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library for learning purpose",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "my-package": "0.0.0",
+    "semver": "^7.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
   "scripts": {
     "test": "mocha"
   },
-  "author": "Betty Ho <bettyvisualtech@gmail.com> (https://github.com/BettyHoPro/)",
-  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BettyHoPro/lotide.git"
   },
-  "keywords": [
-    "Lotide"
-  ],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BettyHoPro/lotide/issues",
-    "email": "lotide@hostername.com"
+    "url": "https://github.com/BettyHoPro/lotide/issues"
   },
-  "homepage": "https://github.com/BettyHoPro/lotide#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "lodash": "^4.17.20",
-    "semver": "^7.3.4"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^8.2.1"
-  }
+  "homepage": "https://github.com/BettyHoPro/lotide#readme"
 }

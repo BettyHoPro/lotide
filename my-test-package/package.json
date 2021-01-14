@@ -1,0 +1,18 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "A mini clone of the [Lodash](https://lodash.com) library for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git-remote-url"
+  },
+  "keywords": [
+    "lotide"
+  ],
+  "author": "betty ho",
+  "license": "ISC"
+}
