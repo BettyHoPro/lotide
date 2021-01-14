@@ -1,27 +1,29 @@
 {
-  "name": "lotide",
+  "name": "betty_ho_dev/lotide", 
   "version": "1.0.0",
-  "description": "\"this is the Lotide to set up json\"",
+  "description": "\"this is the Lotide project created by Betty Ho which used to practice and learn web development\"",
   "main": "assertArraysEqual.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "Betty",
+  "author": "Betty Ho <bettyvisualtech@gmail.com> (https://github.com/BettyHoPro/)",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BettyHoPro/testMacGit.git"
+    "url": "git+https://github.com/BettyHoPro/lotide.git"
   },
   "keywords": [
     "Lotide"
   ],
   "bugs": {
-    "url": "https://github.com/BettyHoPro/testMacGit/issues"
+    "url": "https://github.com/BettyHoPro/lotide/issues",
+    "email": "lotide@hostername.com"
   },
-  "homepage": "https://github.com/BettyHoPro/testMacGit#readme",
+  "homepage": "https://github.com/BettyHoPro/lotide#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "semver": "^7.3.4"
   },
   "devDependencies": {
     "chai": "^4.2.0",
