@@ -1,11 +1,4 @@
-const assertEqual = function(actual, expected) {
-  if (actual !== expected) {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  } else {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  }
-};
-
+const assertEqual = require("./assertEqual");
 //////////// this time 
 // string ---> replace：Format Ob items
 
@@ -18,8 +11,6 @@ const countLetters = (string) => {
   return obBox;
 };
 
-console.log(countLetters('LHL'));
-console.log(countLetters("lighthouse in the house"));
 
 module.exports = countLetters;
 
